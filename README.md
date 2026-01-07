@@ -137,7 +137,7 @@ Las contribuciones son bienvenidas. Por favor:
 
 ## 👤 Vinci
 
-[@Vincixd09]([https://github.com/Vincixd09])
+[@Vincixd09](https://github.com/Vincixd09)
 
 ---
 
