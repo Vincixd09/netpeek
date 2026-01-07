@@ -22,7 +22,7 @@ Una herramienta de línea de comandos para obtener información detallada sobre 
 
 ```bash
 # Clonar el repositorio
-git clone <tu-repositorio>
+git clone https://github.com/Vincixd09/netpeek/tree/netpeek
 
 # Entrar al directorio
 cd ip-location-finder
