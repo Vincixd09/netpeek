@@ -1,105 +1,105 @@
 # 🌍 Netpeek
 
-Una herramienta de línea de comandos para obtener información detallada sobre la geolocalización y red de cualquier dirección IP, incluyendo datos del ASN (Autonomous System Number) asociado.
+A command-line tool to get detailed information about the geolocation and network of any IP address, including associated ASN (Autonomous System Number) data.
 
-## ✨ Características
+## ✨ Features
 
-- 📍 Geolocalización precisa de direcciones IP
-- 🌐 Información completa de la red y CIDR
-- 🏢 Detalles del sistema autónomo (ASN)
-- 🗺️ Datos de ubicación: ciudad, país, latitud y longitud
-- 📊 Rutas IPv4 del ASN consultado
-- 💻 Interfaz interactiva de línea de comandos
-- ⚡ Respuestas rápidas utilizando la API de ip.guide
+- 📍 Accurate IP geolocation
+- 🌐 Complete network and CIDR information
+- 🏢 Autonomous system (ASN) details
+- 🗺️ Location data: city, country, latitude and longitude
+- 📊 IPv4 routes of the queried ASN
+- 💻 Interactive command-line interface
+- ⚡ Fast responses using the ip.guide API
 
-## 🚀 Requisitos
+## 🚀 Requirements
 
-- Node.js (v14 o superior)
+- Node.js (v14 or higher)
 - npm 
-- ts-node (se instalará como dependencia del proyecto)
+- ts-node (will be installed as a project dependency)
 
-## 📦 Instalación
+## 📦 Installation
 
 ```bash
-# Clonar el repositorio
+# Clone the repository
 git clone https://github.com/Vincixd09/netpeek
 
-# Entrar al directorio
+# Enter the directory
 cd netpeek
 
-# Instalar dependencias (incluye ts-node)
+# Install dependencies (includes ts-node)
 npm install
 ```
 
-## 🔧 Uso
+## 🔧 Usage
 
-### Ejecutar el programa
+### Run the program
 
 ```bash
 npm start
 ```
 
-El programa te solicitará ingresar una dirección IP válida y mostrará:
+The program will ask you to enter a valid IP address and will display:
 
-- **Información de la Red:**
-  - CIDR de la red
-  - Hosts de inicio y fin del rango
-  - Sistema autónomo
+- **Network Information:**
+  - Network CIDR
+  - Start and end hosts of the range
+  - Autonomous system
   
-- **Información de la Organización:**
-  - Nombre de la organización
-  - País
+- **Organization Information:**
+  - Organization name
+  - Country
   - RIR (Regional Internet Registry)
 
-- **Geolocalización:**
-  - Ciudad y país
-  - Coordenadas (latitud y longitud)
+- **Geolocation:**
+  - City and country
+  - Coordinates (latitude and longitude)
 
-- **Información del ASN:**
-  - IPS V4 asociadas al sistema autónomo
-  - IPS V6 disponibles
-  - Instrucciones para obtener el listado completo de rutas
+- **ASN Information:**
+  - IPv4 IPs associated with the autonomous system
+  - Available IPv6 routes
+  - Instructions to get the complete list of routes
 
-## 📝 Ejemplo de salida
+## 📝 Output example
 
 ```
-Ingrese una ip valida: 8.8.8.8
+Enter a valid ip: 8.8.8.8
 
-La ip es: 8.8.8.8
+The ip is: 8.8.8.8
 
-Informacion de la Network: 
+Network Information: 
 cidr: 8.8.8.0/24
-Informacion de los hosts: 8.8.8.0 - 8.8.8.255
-Sistema Autonomo: AS15169
+Hosts information: 8.8.8.0 - 8.8.8.255
+Autonomous System: AS15169
 asn: 15169
 
 IPS V4:
-[lista de rutas IPv4]
-Para ver el resultado completo hace un curl -sL ip.guide/AS(el numero de tu ASN) > ips.txt 
-y podras ver todos los resultados en un txt
+[IPv4 routes list]
+To see the complete result do a curl -sL ip.guide/AS(your ASN number) > ips.txt 
+and you can see all the results in a txt
 
 IPS V6:
-[lista de rutas IPv6]
+[IPv6 routes list]
 
-Nombre de la organizacion: GOOGLE
-Pais: US
+Organization name: GOOGLE
+Country: US
 rir: ARIN
 
-La localizacion es:
+The location is:
 Mountain View, United States
-Latitud: 37.4056  y Longitud: -122.0775
+Latitude: 37.4056  and Longitude: -122.0775
 ```
 
-> **Nota de privacidad:** La geolocalización mostrada es aproximada y no revela la ubicación exacta del usuario. La API proporciona información a nivel de ciudad/región para proteger la privacidad.
+> **Privacy note:** The geolocation shown is approximate and does not reveal the user's exact location. The API provides information at city/region level to protect privacy.
 
-## 🛠️ Tecnologías
+## 🛠️ Technologies
 
-- **TypeScript** -
-- **ts-node** - 
-- **Node.js** - 
-- **ip.guide API** - Fuente de datos de geolocalización y ASN
+- **TypeScript** - Main language in the project 
+- **ts-node** - Run TypeScript without precompiling
+- **Node.js** - Runtime environment
+- **ip.guide API** - Geolocation and ASN data source
 
-## 📄 Scripts disponibles
+## 📄 Available scripts
 
 ```json
 {
@@ -107,9 +107,9 @@ Latitud: 37.4056  y Longitud: -122.0775
 }
 ```
 
-## 🤝 Contribuciones
+## 🤝 Contributions
 
-Las contribuciones son bienvenidas.
+Contributions are welcome.
 
 ## 👤 Vinci
 
@@ -117,4 +117,4 @@ Las contribuciones son bienvenidas.
 
 ---
 
-⭐ Si este proyecto te fue útil, considera darle una estrella en GitHub	
+⭐ If this project was useful to you, consider giving it a star on GitHub
