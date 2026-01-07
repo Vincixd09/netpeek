@@ -31,20 +31,6 @@ cd netpeek
 npm install
 ```
 
-### Instalación de ts-node
-
-Este proyecto utiliza **ts-node** para ejecutar TypeScript directamente sin necesidad de compilar a JavaScript previamente. Puedes instalarlo:
-
-**A nivel de proyecto** (recomendado):
-```bash
-npm install --save-dev ts-node typescript
-```
-
-**A nivel global** (opcional):
-```bash
-npm install -g ts-node typescript
-```
-
 ## 🔧 Uso
 
 ### Ejecutar el programa
@@ -127,13 +113,6 @@ Latitud: 37.4056  y Longitud: -122.0775
 ## 🤝 Contribuciones
 
 Las contribuciones son bienvenidas. Por favor:
-
-1. Haz fork del proyecto
-2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
-3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
-5. Abre un Pull Request
-
 
 ## 👤 Vinci
 
