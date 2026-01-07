@@ -25,7 +25,7 @@ Una herramienta de línea de comandos para obtener información detallada sobre 
 git clone https://github.com/Vincixd09/netpeek/tree/netpeek
 
 # Entrar al directorio
-cd ip-location-finder
+cd netpeek
 
 # Instalar dependencias (incluye ts-node)
 npm install
