@@ -37,8 +37,6 @@ npm install
 
 ```bash
 npm start
-# o si tienes ts-node global
-ts-node src/index.ts
 ```
 
 El programa te solicitará ingresar una dirección IP válida y mostrará:
