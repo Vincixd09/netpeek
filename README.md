@@ -15,7 +15,7 @@ Una herramienta de línea de comandos para obtener información detallada sobre 
 ## 🚀 Requisitos
 
 - Node.js (v14 o superior)
-- npm o yarn
+- npm 
 - ts-node (se instalará como dependencia del proyecto)
 
 ## 📦 Instalación
@@ -94,10 +94,9 @@ Latitud: 37.4056  y Longitud: -122.0775
 
 ## 🛠️ Tecnologías
 
-- **TypeScript** - Lenguaje de programación tipado
-- **ts-node** - Ejecutor de TypeScript sin compilación previa
-- **Node.js** - Entorno de ejecución
-- **readline** - Para la interfaz interactiva CLI
+- **TypeScript** -
+- **ts-node** - 
+- **Node.js** - 
 - **ip.guide API** - Fuente de datos de geolocalización y ASN
 
 ## 📄 Scripts disponibles
