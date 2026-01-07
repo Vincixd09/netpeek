@@ -137,7 +137,7 @@ Las contribuciones son bienvenidas. Por favor:
 
 ## 👤 Vinci
 
-Tu nombre - [@tu_usuario](https://github.com/tu_usuario)
+[@Vincixd09]([https://github.com/tu_usuario](https://github.com/Vincixd09))
 
 ---
 
