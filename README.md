@@ -112,7 +112,7 @@ Latitud: 37.4056  y Longitud: -122.0775
 
 ## 🤝 Contribuciones
 
-Las contribuciones son bienvenidas. Por favor:
+Las contribuciones son bienvenidas.
 
 ## 👤 Vinci
 
