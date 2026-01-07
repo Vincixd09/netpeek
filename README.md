@@ -1,4 +1,4 @@
-# 🌍 IP Location Finder
+# 🌍 Netpeek
 
 Una herramienta de línea de comandos para obtener información detallada sobre la geolocalización y red de cualquier dirección IP, incluyendo datos del ASN (Autonomous System Number) asociado.
 
@@ -134,11 +134,8 @@ Las contribuciones son bienvenidas. Por favor:
 4. Push a la rama (`git push origin feature/AmazingFeature`)
 5. Abre un Pull Request
 
-## 📜 Licencia
 
-Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
-
-## 👤 Autor
+## 👤 Vinci
 
 Tu nombre - [@tu_usuario](https://github.com/tu_usuario)
 
